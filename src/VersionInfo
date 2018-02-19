@@ -1,0 +1,11 @@
+Version 5:
+- Bugfix bei der Auswertung eines Vierlings
+- Optimierung bei findThreeOfAKind()
+- Optimierung bei findFlush()
+
+Version 6:
+- Kein ausschließliches mitgehen bei possibleFlush oder einem Paar mehr im PreFlop
+- Im PreFlop immer mitgehen solange AmountToCall <= 15% des eigenen Stacks beträgt
+
+Version 7:
+- Aus dem TacticalProcessor.sortCards() die initialisierung der HashMap entfernt, da sonst doppelt erzeugt wird
