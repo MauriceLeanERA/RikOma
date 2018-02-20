@@ -6,64 +6,61 @@
 
 
 /**
- *
  * @author Maurice Bernard
  */
 public class Player {
-    private int stack = 0;
-    private Hand hand = null;
-    private int bet = 0;
-    
-    public void removeFromStack(int amount)
-    {
-        stack =- amount;
-    }
-    
-    public void addToStack(int amount)
-    {
-        stack += amount;
-    }
+  private int stack = 0;
+  private Hand hand = null;
+  private int bet = 0;
 
-    /**
-     * @return the stack
-     */
-    public int getStack() {
-        return stack;
-    }
+  public void removeFromStack(int amount) {
+    stack = -amount;
+  }
 
-    /**
-     * @param stack the stack to set
-     */
-    public void setStack(int stack) {
-        this.stack = stack;
-    }
+  public void addToStack(int amount) {
+    stack += amount;
+  }
 
-    /**
-     * @return the hand
-     */
-    public Hand getHand() {
-        return hand;
-    }
+  /**
+   * @return the stack
+   */
+  public int getStack() {
+    return stack;
+  }
 
-    /**
-     * @param hand the hand to set
-     */
-    public void setHand(Hand hand) {
-        this.hand = hand;
-    }
+  /**
+   * @param stack the stack to set
+   */
+  public void setStack(int stack) {
+    this.stack = stack;
+  }
 
-    /**
-     * @return the bet
-     */
-    public int getBet() {
-        return bet;
-    }
+  /**
+   * @return the hand
+   */
+  public Hand getHand() {
+    return hand;
+  }
 
-    /**
-     * @param bet the bet to set
-     */
-    public void setBet(int bet) {
-        this.bet = bet;
-    }
-    
+  /**
+   * @param hand the hand to set
+   */
+  public void setHand(Hand hand) {
+    this.hand = hand;
+  }
+
+  /**
+   * @return the bet
+   */
+  public int getBet() {
+    return bet;
+  }
+
+  /**
+   * @param bet the bet to set
+   */
+  public void setBet(int bet) {
+    this.bet = bet;
+  }
+
 }

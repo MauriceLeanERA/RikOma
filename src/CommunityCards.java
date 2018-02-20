@@ -8,62 +8,60 @@
 import java.util.ArrayList;
 
 /**
- *
  * @author Maurice Bernard
  */
 public class CommunityCards {
-    private ArrayList<Card> flop = new ArrayList<>();   //ersten cCards
-    private ArrayList<Card> turn = new ArrayList<>();   //zweiten cCards
-    private ArrayList<Card> river = new ArrayList<>();  //dritten cCards
+  private ArrayList<Card> flop = new ArrayList<>();   //ersten cCards
+  private ArrayList<Card> turn = new ArrayList<>();   //zweiten cCards
+  private ArrayList<Card> river = new ArrayList<>();  //dritten cCards
 
-    /**
-     * @return the flop
-     */
-    public ArrayList<Card> getFlop() {
-        return flop;
-    }
+  /**
+   * @return the flop
+   */
+  public ArrayList<Card> getFlop() {
+    return flop;
+  }
 
-    /**
-     * @param flop the flop to set
-     */
-    public void setFlop(ArrayList<Card> flop) {
-        this.flop = flop;
-    }
+  /**
+   * @param flop the flop to set
+   */
+  public void setFlop(ArrayList<Card> flop) {
+    this.flop = flop;
+  }
 
-    /**
-     * @return the river
-     */
-    public ArrayList<Card> getRiver() {
-        return river;
-    }
+  /**
+   * @return the river
+   */
+  public ArrayList<Card> getRiver() {
+    return river;
+  }
 
-    /**
-     * @param river the river to set
-     */
-    public void setRiver(ArrayList<Card> river) {
-        this.river = river;
-    }
+  /**
+   * @param river the river to set
+   */
+  public void setRiver(ArrayList<Card> river) {
+    this.river = river;
+  }
 
-    /**
-     * @return the turn
-     */
-    public ArrayList<Card> getTurn() {
-        return turn;
-    }
+  /**
+   * @return the turn
+   */
+  public ArrayList<Card> getTurn() {
+    return turn;
+  }
 
-    /**
-     * @param turn the turn to set
-     */
-    public void setTurn(ArrayList<Card> turn) {
-        this.turn = turn;
-    }
-    
-    public ArrayList<Card> getAllCards()
-    {
-        ArrayList<Card> returnList = new ArrayList<>();
-        returnList.addAll(flop);
-        returnList.addAll(turn);
-        returnList.addAll(river);
-        return returnList;
-    }
+  /**
+   * @param turn the turn to set
+   */
+  public void setTurn(ArrayList<Card> turn) {
+    this.turn = turn;
+  }
+
+  public ArrayList<Card> getAllCards() {
+    ArrayList<Card> returnList = new ArrayList<>();
+    returnList.addAll(flop);
+    returnList.addAll(turn);
+    returnList.addAll(river);
+    return returnList;
+  }
 }

@@ -6,10 +6,9 @@
 
 
 /**
- *
  * @author Maurice Bernard
  */
 public enum CardOwnerEnum {
-    Self,
-    Community;
+  Self,
+  Community
 }

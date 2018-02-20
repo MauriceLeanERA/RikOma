@@ -5,18 +5,17 @@
  */
 
 /**
- *
  * @author Maurice Bernard
  */
 public class RikOma {
 
-    public static String botID = "";
-    
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        new InputParser().input();
-    }
-    
+  public static String botID = "";
+
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) {
+    new InputParser().input();
+  }
+
 }

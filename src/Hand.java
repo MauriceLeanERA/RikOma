@@ -8,36 +8,34 @@
 import java.util.ArrayList;
 
 /**
- *
  * @author Maurice Bernard
  */
 public class Hand {
-    private ArrayList<Card> hand = new ArrayList<>();
-    private int handValue = 0;
-    
-    public Hand(ArrayList<Card> hand)
-    {
-        this.hand = hand;
-    }
+  private ArrayList<Card> hand;
+  private int handValue = 0;
 
-    /**
-     * @return the hand
-     */
-    public ArrayList<Card> getCards() {
-        return hand;
-    }
+  Hand(ArrayList<Card> hand) {
+    this.hand = hand;
+  }
 
-    /**
-     * @return the handValue
-     */
-    public int getHandValue() {
-        return handValue;
-    }
+  /**
+   * @return the hand
+   */
+  public ArrayList<Card> getCards() {
+    return hand;
+  }
 
-    /**
-     * @param handValue the handValue to set
-     */
-    public void setHandValue(int handValue) {
-        this.handValue = handValue;
-    }
+  /**
+   * @return the handValue
+   */
+  public int getHandValue() {
+    return handValue;
+  }
+
+  /**
+   * @param handValue the handValue to set
+   */
+  public void setHandValue(int handValue) {
+    this.handValue = handValue;
+  }
 }
